@@ -1,0 +1,122 @@
+body{
+	padding-top:70px;
+}
+.item{
+	background: #333;    
+    text-align: center;
+    height: 320px !important;
+}
+#myCarousel h2{
+	margin:0px !important;
+	color:#fff;
+	padding-top:50px;
+	font-size:5em;
+}
+.followIcons .headerTxt{
+	font-style: italic;
+	padding:25px 0px 5px;
+	font-size:1.2em;
+	text-align:center;
+	color:#f00;
+}
+.iconHolder{
+	margin-bottom:10px;
+	float:left;
+	width:100%;
+	padding-left: 0px;
+}
+.iconHolder li{
+	float:left;
+	background: url("../images/buttons_sprite.png") 0 0 no-repeat;
+	width: 43px;
+	height: 47px;
+	list-style:none;
+}
+.iconHolder li.mail {
+	background-position: 0 0;
+}
+.iconHolder li.fb {
+	background-position: -43px 0;
+}
+.iconHolder li.twitter {
+	background-position: -86px 0;
+}
+.iconHolder li.in {
+	background-position: -129px 0;
+}
+.iconHolder li.gPlus {
+	background-position: -172px 0;
+}
+.iconHolder li.rss {
+	background-position: -215px 0;
+}
+.advertisement{
+	float:left;
+}
+.advertiseImgHolder img{
+	width: 100%;
+}
+.advertiseTxt{
+	background:#f7f5e6;
+	width:100%;
+	text-align:center;
+}
+.advertiseTxt h4{
+	margin-top:0px;
+	padding-top:10px;
+}
+.advertiseTxt p{
+	margin-bottom:0px;
+	padding-bottom:10px;
+}
+.drillDownHeader{
+	padding:15px 20px;
+	color:#fff;
+	background-color:#eb1c23;
+	font-size:1.5em;
+	text-align:center;
+}
+.drillDownSection{
+	padding-left:0px!important;
+	padding-right:0px!important;
+	padding-bottom:10px;
+	background-color:#f0f0f0;
+}
+.topicWrapper .topicImage img{
+	border-radius:50%;
+	max-width:100px;
+}
+.topicWrapper .topicImage, .topicWrapper .topicCaption, .topicWrapper .topicHead, .topicWrapper .topicInfo {
+	text-align: center;
+	padding-top:1em;
+}
+.topicWrapper .topicCaption{
+	font-style: italic;	
+	color:#eb1c23;
+}
+.topicWrapper{
+	background-color:#f0f0f0;
+}
+.topicInfo p{
+	margin-bottom:0px;
+}
+.newsStackInfo .newsStackcatagoy{
+	font-style: italic;	
+	color:#eb1c23;
+	font-size:1.2em;
+}
+.newsStackInfo{
+	padding-right: 8em;
+}
+.newsStackImage {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.newsStack{
+	padding-top:10px;
+	float:left;
+	padding-bottom:20px;
+	background:url("../images/border-pattern.gif") repeat-x bottom left transparent; 
+	position:relative;
+}
